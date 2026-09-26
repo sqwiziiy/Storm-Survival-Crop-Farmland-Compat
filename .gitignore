@@ -1,0 +1,9 @@
+.gradle/
+build/
+.idea/
+run/
+logs/
+crash-reports/
+*.log
+*.jar
+!gradle/wrapper/gradle-wrapper.jar

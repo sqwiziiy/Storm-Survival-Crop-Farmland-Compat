@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "storm_survival_crop_farmland_compat",
+  "version": "${version}",
+  "name": "Storm Survival Crop Farmland Compat",
+  "description": "Targeted CropBlock farmland compatibility for Storm Survival.",
+  "authors": ["Mentality"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.mentality.stormsurvivalcropfarmlandcompat.StormSurvivalCropFarmlandCompat"
+    ]
+  },
+  "mixins": [
+    "storm_survival_crop_farmland_compat.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "fabricloader": ">=0.14.21"
+  }
+}
