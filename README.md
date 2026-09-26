@@ -17,6 +17,7 @@ Farm & Charm:
 - `farm_and_charm:oat_crop`
 - `farm_and_charm:onion_crop`
 - `farm_and_charm:strawberry_crop`
+- `farm_and_charm:tomato`
 
 HerbalBrews:
 
@@ -57,8 +58,11 @@ Nearby versions may work, but are not guaranteed.
 
 ## Companion datapack
 
-Brewery hops and the tested Farm & Charm tomato tag path are handled separately
-by [Storm Survival Farmland Compat](https://github.com/sqwiziiy/storm-survival-farmland-compat).
+Brewery hops remain handled separately by [Storm Survival Farmland Compat](https://github.com/sqwiziiy/storm-survival-farmland-compat).
+
+Farm & Charm 1.0.14 hard-codes vanilla and fertilized farmland in
+`TomatoCropBlock.mayPlaceOn`, so tomato support is code-side here. The tomato
+rope/body/head mechanics are not replaced.
 
 The datapack and this mod solve different farmland compatibility paths and are
 designed to be used together.
@@ -81,7 +85,7 @@ or obvious incorrect growth behavior.
 ## Scope exclusions
 
 - Brewery hops are handled by the companion datapack.
-- Farm & Charm tomato is handled by the tested datapack/tag path.
+- Farm & Charm tomato uses the narrow code-side placement fix described above.
 - Vinery grape crops and unrelated vanilla/modded `CropBlock` crops are out of scope.
 
 No third-party assets or binaries are bundled. License: MIT.
