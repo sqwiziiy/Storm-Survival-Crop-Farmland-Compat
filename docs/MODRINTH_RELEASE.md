@@ -24,7 +24,7 @@ No icon, banner, or gallery image is required.
 - Regions Unexplored (`Tkikq67H`): REQUIRED; tested version `rhE8MT9Z` (`A-0.5.6+1.20.1`).
 - [Let's Do] Farm & Charm (`HJetCzWo`): OPTIONAL; tested version `sMjnKy5B` (`1.0.14`).
 - [Let's Do] HerbalBrews (`Eh11TaTm`): OPTIONAL; tested Fabric version `txZ8qKXK` (`1.0.12`).
-- Fabric API: no direct Modrinth relationship; it is declared by the mod metadata and supplied by the tested Fabric environment.
+- Fabric API: `NOT DIRECT`; `fabric.mod.json` does not declare Fabric API. It was present in the tested environment through the modpack's other dependencies.
 - Storm Survival Farmland Compat datapack: recommended companion, not a Java dependency.
 
 Farm & Charm and HerbalBrews are optional independently because the compat mod
